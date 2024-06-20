@@ -1,0 +1,102 @@
+body {
+  background-color: #edefee;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+nav {
+  background-color: black;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  flex: 1;
+}
+
+footer {
+  display: flex;
+}
+
+footer div {
+  flex: 1;
+}
+
+#offerArticle {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://t3.ftcdn.net/jpg/02/52/38/80/360_F_252388016_KjPnB9vglSCuUJAumCDNbmMzGdzPAucK.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+
+#offerArticle h1 {
+  color: white;
+}
+
+#offerArticle p {
+  color: white;
+}
+
+#contentDiv {
+  display: inline-flex;
+}
+
+.contentArticle {
+  background-color: antiquewhite;
+  text-align: left;
+  margin: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.contentArticle h2 {
+  color: black;
+}
+
+.contentArticle p {
+  color: black;
+}
+
+.contentArticle img {
+  width: 70%;
+}
